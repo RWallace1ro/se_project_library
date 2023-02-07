@@ -40,7 +40,7 @@
 }
 
 .nav__links:hover {
-  color: 1f69c9;
+  color: #1f69c9;
   cursor: pointer;
 }
 
@@ -175,6 +175,11 @@
   margin-top: 60px;
   color: #2f80ed;
   text-decoration: none;
+}
+
+.events__more:hover {
+  color: #1f69c9;
+  cursor: pointer;
 }
 
 .events__cover {
@@ -483,6 +488,7 @@ width: 80px;
   margin-right: auto;
   width: 116px;
   height: 21px;
+  width: 200px;
 }
 
 .footer__list {
@@ -501,9 +507,9 @@ width: 80px;
   padding-bottom: 20px;
 }
 
-.footer__logo_content {
+/*.footer__logo_content {
   width: 200px;
-}
+}*/
 
 .footer__column-link {
   color: #c1c1c1;
@@ -528,6 +534,6 @@ width: 80px;
   color: #fff;
   position: relative;
   margin: 0px;
-  bottom: 80px;
-  margin-left: 80px;
+  bottom: -200px;
+  right: 1240px;
   }

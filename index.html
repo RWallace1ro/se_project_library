@@ -16,21 +16,21 @@
           <section id="nav-link-menu">
             <ul id="nav-links-menu" class="nav__links">
               <li>
-                <section><a href="#staff-picks-books" class="nav__link">Staff picks</a></section>
+                <section id="staffpicks"><a href="#staff-picks-books" class="nav__link">Staff picks</a></section>
               </li>
               <li>
-                <section><a href="#library-events" class="nav__link">Events</a></section>
+                <section id="events"><a href="#library-events" class="nav__link">Events</a></section>
               </li>
               <li>
-                <section>
+                <section id="becomeamember">
                   <a href="#prospective-members" class="nav__link">Become a member</a>
                 </section>
               </li>
               <li>
-                <section><a href="#about-library-books" class="nav__link">About</a></section>
+                <section id="about"><a href="#about-library-books" class="nav__link">About</a></section>
               </li>
               <li>
-                <section><a href="#library-contacts" class="nav__link">Contacts</a></section>
+                <section id="contacts"><a href="#library-contacts" class="nav__link">Contacts</a></section>
               </li>
             </ul>
           </section>
@@ -75,7 +75,7 @@
             prove that this hasn't been the case since at least the 18th
             century.
           </p>
-          <a href="#" class="events__more">More events &rarr;</a>
+          <a href="#more-library-events" class="events__more">More events &rarr;</a>
         </div>
         <div class="events__cover">
           <img src="./images/cafe.png" alt="cafe image" class="events__image">
@@ -107,7 +107,7 @@
         <ul class="staff__cards">
           <li class="card">
             <div class="card__content">
-              <h3 id="book-1" class="card__title">Introduction to Algorithms</h3>
+              <h3 id="card-one" class="card__title">Introduction to Algorithms</h3>
               <p class="card__text">
                 The name of this book is self-explanatory; it's a proper
                 introduction to algorithms! Introduction to Algorithms, or CLRS,
@@ -123,7 +123,7 @@
           </li>
           <li class="card">
             <div class="card__content">
-              <h3 class="card__title">
+              <h3 id="card-2" class="card__title">
                 The Structure and Interpretation of Computer Programs (SICP)
               </h3>
               <p class="card__text">
@@ -139,7 +139,7 @@
           </li>
           <li class="card">
             <div class="card__content">
-              <h3 class="card__title">
+              <h3 id="card-three" class="card__title">
                 The Clean Coder: A Code of Conduct for Professional Programmers
               </h3>
               <p class="card__text">
@@ -155,7 +155,7 @@
 
           <li class="card">
             <div class="card__content">
-              <h3 class="card__title">
+              <h3 id="card-four" class="card__title">
                 Code Complete: A Practical Handbook of Software Construction
               </h3>
               <p class="card__text">
@@ -251,32 +251,32 @@
     </main>
       <footer id="library-contacts" class="footer">
         <div class="footer__columns">
-            <div class="footer__logo">
-             <img src="./images/logo_white.png" class="footer__logo_content" alt="Practicum logo">
+             <div class="footer__logo">
+               <img src="./images/logo_white.png" alt="Practicum logo">
+             </div>
+            <div class="footer__column footer__column_content_hours">
+              <h2 id="library-hours" class="footer__column-heading">Hours</h2>
+              <ul class="footer__list">
+                <li class="footer__list-item">Weekdays: 9am-8pm</li>
+                <li class="footer__list-item">Weekends: 10am-6pm</li>
+              </ul>
             </div>
-         <div class="footer__column footer__column_content_hours">
-            <h2 id="library-hours" class="footer__column-heading">Hours</h2>
-            <ul class="footer__list">
-              <li class="footer__list-item">Weekdays: 9am-8pm</li>
-              <li class="footer__list-item">Weekends: 10am-6pm</li>
-           </ul>
+            <div class="footer__column footer__column_content_social">
+                 <h2 id="library-socialmedia" class="footer__column-heading">Social media</h2>
+              <ul class="footer__list">
+                 <li class="footer__list-item">
+                   <a href="library-facebook" class="footer__column-link">
+                   <img src="./images/facebook_white.svg" class="footer__social-icon" alt="Facebook logo">Facebook</a>
+                </li>
+                <li class="footer_list-item">
+                  <a href="#librarb-instagram" class="footer__column-link">
+                  <img src="./images/instagram_white.svg"  class="footer__social-icon" alt="Instagram logo">Instagram</a>
+                </li>
+             </ul>
+            </div>
          </div>
-         <div class="footer__column footer__column_content_social">
-           <h2 id="library-socialmedia" class="footer__column-heading">Social media</h2>
-           <ul class="footer__list">
-              <li class="footer__list-item">
-                <a href="#" class="footer__column-link">
-                <img src="./images/facebook_white.svg" class="footer__social-icon" alt="Facebook logo">Facebook</a>
-              </li>
-              <li class="footer_list-item">
-                <a href="#" class="footer__column-link">
-                <img src="./images/instagram_white.svg"  class="footer__social-icon" alt="Instagram logo">Instagram</a>
-              </li>
-            </ul>
-         </div>
-        </div>
-     </footer>
-     <p class="footer__copyright">©2023 Rochelle Wallace</p>
+         <p class="footer__copyright">©2023 Rochelle Wallace</p>
+      </footer>
     </div>
   </body>
 </html>
