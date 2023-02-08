@@ -486,8 +486,6 @@
   margin-right: auto;
   width: 116px;
   height: 21px;
-  background-image: url(/images/logo_white.png);
-  background-size: cover;
 }
 
 .logo_image {
@@ -516,9 +514,7 @@
 
 .footer__column-link {
   color: #c1c1c1;
-  display: flex;
   text-decoration: none;
-  align-items: center;
 }
 
 .footer__column-link:hover {
