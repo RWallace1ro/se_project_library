@@ -277,7 +277,6 @@
   line-height: 30px;
   font-weight: 400;
   margin: 24px 0 0;
-  margin-bottom: 68px;
   color: #f2f2f2;
 }
 
@@ -286,11 +285,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px 40px;
+  gap: 40px;
   list-style-type: none;
   padding: 0;
   align-items: center;
-  margin: auto;
+  margin-top: 68px;
+  margin-bottom: 0;
+  margin-left: 340px;
 }
 
 .card {
@@ -513,12 +514,12 @@
 }
 
 .footer__column-link {
-  color: #c1c1c1;
+  color: white;
   text-decoration: none;
 }
 
 .footer__column-link:hover {
-  color: #1f69c9;
+  color: #c1c1c1;
 }
 
 .footer__social-icon {
