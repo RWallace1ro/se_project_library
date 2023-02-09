@@ -1,7 +1,6 @@
 .page {
   min-width: 1100px;
   max-width: 1600px;
-  justify-content: center;
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -39,10 +38,6 @@
   margin-top: 8px;
 }
 
-.nav__links:hover {
-  color: #1f69c9;
-}
-
 .nav__link {
   color: #000000;
   text-decoration: none;
@@ -67,6 +62,7 @@
   font-size: 20px;
   line-height: 30px;
   margin-top: 32px;
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -104,7 +100,7 @@
 }
 
 .events {
-  padding: 70px 0 120px 80px;
+  padding: 100px 0 120px 80px;
   display: flex;
   align-items: start;
   justify-content: space-between;
@@ -199,31 +195,26 @@
 }
 
 .person_name_feynman {
-  position: absolute;
   left: 319px;
   top: -30px;
 }
 
 .person_name_burbidge {
-  position: absolute;
   right: 125px;
   top: 96px;
 }
 
 .person_name_cannon {
-  position: absolute;
   right: 216px;
   bottom: 18px;
 }
 
 .person_name_mitchell {
-  position: absolute;
   bottom: 82px;
   left: 142px;
 }
 
 .person_name_tarter {
-  position: absolute;
   top: 79px;
   left: 159px;
 }
@@ -267,17 +258,13 @@
   color: #f2f2f2;
 }
 
-.staff__title:hover {
-  color: #1f69c9;
-}
-
 .staff__subtitle {
   text-align: center;
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
   margin: 24px 0 0;
-  color: #f2f2f2;
+  color: #fff;
 }
 
 .staff__cards {
@@ -346,32 +333,17 @@
   line-height: 52px;
 }
 
-.membership__title:hover {
-  color: #1f69c9;
-  cursor: pointer;
-}
-
 .membership__steps {
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
   display: flex;
-  flex-basis: 220px;
   gap: 40px;
   justify-content: center;
 }
 
-.membership__steps:hover {
-  color: #1f69c9;
-  cursor: pointer;
-}
-
 .step {
-  display: flex;
   flex-basis: 220px;
-  gap: 40px;
-  flex-wrap: wrap;
-  align-items: flex-start;
 }
 
 .step__title {
@@ -435,6 +407,10 @@
   position: relative;
 }
 
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
 .about__circle {
   display: flex;
   background-color: #2f80ed;
@@ -458,29 +434,22 @@
   padding-left: 80px;
   padding-right: 102px;
   min-height: 224px;
-  display: contents;
-  height: 344px;
 }
 
 .footer__columns {
   flex-direction: row;
   display: flex;
   background-color: inherit;
-  padding-bottom: 60px;
-  padding-left: 80px;
 }
 
 .footer__column_content_hours {
   color: #ffffff;
   margin-left: auto;
-  padding-bottom: 20px;
   margin-right: 100px;
 }
 
 .footer__column_content_social {
   color: #ffffff;
-  padding-bottom: 20px;
-  margin-right: 102px;
 }
 
 .footer__logo {
@@ -511,6 +480,8 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link {
@@ -530,11 +501,6 @@
 
 .footer__copyright {
   color: #fff;
-  position: relative;
-  background-color: inherit;
-  padding: 0px;
-  margin: 0px;
-  top: -60px;
-  left: 80px;
-  width: 200px;
+  margin-top: 80px;
+  margin-bottom: 60px;
 }
